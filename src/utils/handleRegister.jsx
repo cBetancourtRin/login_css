@@ -48,7 +48,7 @@ const handleRequest = async (token, userData) => {
 
         const response = await fetch('https://gateway.3sg.com.co/api/receive-json', {
             method: 'POST',
-            mode:"no-cors",
+            mode:"no-cors",/* used for jump the CORS verification */
             headers: {
                 'Content-Type': 'application/json',
                 'Authorization': `Bearer ${access_token}`
