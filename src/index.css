@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .background-circle {
+        clip-path: ellipse(98% 97% at 98% 97%);
+    }
+ 
+ }
