@@ -17,10 +17,10 @@ export const Form = () => {
       option: option,
     }
     handleRegister(DATA_USER);
-    /* setEmail(""); 
+    setEmail(""); 
     setName("");
     setPhone("");
-    setOption(""); */
+    setOption("");
   }
 
   return (
